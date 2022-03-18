@@ -10,7 +10,7 @@ void create()
 	int arr[100],n,i=0;
 	printf("Enter the limit of the array: ");
 	scanf("%d",&n);
-	printf("Enter array elements: ",n);
+	printf("Enter array elements: ");
 	while(i<=n-1)
 	{
 		scanf("%d",&arr[i]);
