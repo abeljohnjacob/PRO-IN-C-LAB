@@ -1,11 +1,11 @@
 #include<stdio.h>
-void create();
+int create();
 int main()
 {
 	create();
 	return 0;
 }
-void create()
+int create()
 {
 	int arr[100],n,i=0;
 	printf("Enter the limit of the array: ");
